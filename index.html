@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<title>Chen Fang Resume</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html, body, .container, .row {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			max-width: none;
+		}
+		.left {
+			background-color: #EF943A;
+			color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+		}
+		.left p {
+			font-family: "Source Sans Pro";
+			margin: 0;
+		}
+		.left p:is(.firstname, .lastname) {
+			font-size: 55px;
+			font-weight: 400;
+			line-height: 66px;
+		}
+		.left p.lastname {
+			margin-bottom: 30px;
+		}
+		.left p:is(.mobile, .email) {
+			font-size: 20px;
+			font-weight: 600;
+			line-height: 30px;
+		}
+		.right {
+			padding: 0;
+			height: 100vh;
+			overflow-y: scroll;
+			scrollbar-width: none;
+		}
+		.right::-webkit-scrollbar {
+			display: none;
+		}
+		.right p {
+			padding: 0 2%;
+		}
+		.right p.heading {
+			background-color: #EF943A;
+			color: white;
+			font-size: 25px;
+			font-weight: 700;
+			line-height: 40px;
+			text-transform: uppercase;
+		}
+		.right p.paragraph {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 30px;
+		}
+		.right ul {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 30px;
+			padding: 0 2% 0 4%;
+		}
+		.right ul.two-columns {
+			columns: 2;
+			-webkit-columns: 2;
+			-moz-columns: 2;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 left">
+				<p class="firstname">CHEN</p>
+				<p class="lastname">FANG</p>
+				<p class="mobile">+61 449 986 313</p>
+				<p class="email">chenfangau@gmail.com</p>
+				<p class="email">Syndey, Australia</p>
+			</div>
+			<div class="col-sm-9 right">
+				<p class="paragraph"></p>
+				<p class="heading">Professional Summary</p>
+				<p class="paragraph">Passionate software engineer with over seven years of experience designing, developing, and maintaining web-based applications and enterprise systems. Expertise in full-stack development, cloud-based solutions, and API integrations. Strong problem-solving skills and a focus on delivering high-quality solutions to improve operational efficiency. Proven ability to adapt to emerging technologies, with recent experience in modern technologies, as well as DevOps practices.</p>
+				<p class="heading">Skills</p>
+				<ul class="two-columns">
+					<li>PHP</li>
+					<li>Node.js</li>
+					<li>Python</li>
+					<li>Java</li>
+					<li>C#</li>
+					<li>RESTful APIs</li>
+					<li>GraphQL</li>
+					<li>React</li>
+					<li>Docker</li>
+					<li>Kubernetes</li>
+					<li>AWS</li>
+					<li>Azure</li>
+				</ul>
+				<p class="heading">Experience</p>
+				<p class="paragraph">
+					<b>Software Engineer</b>, PCA Supply Chain Solutions, Sep 2017 - Current,
+					<br />Sydney, NSW, Australia
+				</p>
+				<ul>
+					<li>Designed, developed, and maintained a robust ERP system supporting logistics, including cargo, warehouse, and transportation management, as well as customer service modules</li>
+					<li>Implemented API integrations for payment platforms (PayPal, Poli, Alipay, WeChat Pay) to streamline financial operations</li>
+					<li>Migrated critical components to cloud-based infrastructure, enhancing scalability and availability</li>
+					<li>Introduced microservices architecture for the warehouse management system to improve modularity and maintenance</li>
+					<li>Led the adoption of modern front-end frameworks (React.js and Redux) for user interfaces, improving performance and user experience</li>
+					<li>Provided technical support and custom EDI solutions for partner companies</li>
+				</ul>
+				<p class="heading">Education</p>
+				<p class="paragraph">
+					<b>Master of Information Technology:</b> Computer Science
+					<br />University of New South Wales, Sydney, Australia, Jan 2017
+				</p>
+				<p class="paragraph">
+					<b>Bachelor of Engineering:</b> Information Engineering
+					<br />East China University of Science and Technology, Shanghai, China, Jun 2014
+				</p>
+				<p class="heading">Projects</p>
+				<p class="paragraph">ERP System for PCA Express, Developed a web-based ERP application tailored for logistics operations, including inventory and transportation management. Optimized workflows by integrating cloud services and improving system responsiveness. WeChat Official Account Chat Room, Designed and implemented a real-time chat room to handle customer service inquiries via WeChat, improving response times and customer satisfaction. Integration System for WMS and Shopify, Built an integration system to synchronize warehouse inventory with Shopify e-commerce platforms, enabling real-time stock updates and order processing. Reduced operational overhead by automating manual data entry tasks.</p>
+				<p class="heading">Hobbies and Interests</p>
+				<ul>
+					<li>Enthusiastic about exploring AI/ML applications and contributing to open-source projects.</li>
+					<li>Active participant in local tech meetups and hackathons in Sydney.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
